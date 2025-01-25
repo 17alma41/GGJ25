@@ -11,13 +11,33 @@ public class GameManager : MonoBehaviour
     public GameObject panelcreditos;
     public static bool cr;
     bool cract;
+
+    LocalRankingManager rankingManager;
+
+    public static GameManager Instance;
+
     // Start is called before the first frame update
     void Start()
     {
+        rankingManager = GetComponent<LocalRankingManager>();
+
         auso = GetComponent<AudioSource>();
         Invoke("fade", 1f);
         panelcreditos.SetActive(false);
         cr = false;
+    }
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -28,6 +48,14 @@ public class GameManager : MonoBehaviour
             cr = true;
             Invoke("outcredit", 1f);
             cract = false;
+
+        }
+
+        // Reseteo de BBDD
+        if (Input.GetKeyUp(KeyCode.V))
+        {
+
+            rankingManager.ResetScores();
 
         }
     }
