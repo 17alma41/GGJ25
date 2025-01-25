@@ -24,7 +24,7 @@ public class Creditos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.cr == true)
+        if (Gamemanagement.cr == true)
         {
             t1.SetActive(false);
             t2.SetActive(false);
