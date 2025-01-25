@@ -8,8 +8,11 @@ public class Timer : MonoBehaviour
 {
     //Esta clase tiene que ir dentro del player
 
-    [SerializeField] TextMeshProUGUI text;
+    [SerializeField] TextMeshProUGUI timerText;
     float startTime;
+    bool isRunning = true;
+    float finalTime;
+
 
     void Start()
     {
@@ -25,7 +28,7 @@ public class Timer : MonoBehaviour
 
         string TimerString = string.Format("{0}:{1}:{2}", mins, segs, milisegs);
 
-        text.text = TimerString;
+        timerText.text = TimerString;
 
     }
 
@@ -35,6 +38,31 @@ public class Timer : MonoBehaviour
         if (collision.gameObject.CompareTag("obstacle")) // NO OLVIDAR: añadir tag "obstacle"
         {
             startTime -= 5f;
+        }
+    }
+
+    public void StopTimer()
+    {
+        isRunning = false;
+        finalTime = Time.time - startTime; // Guarda el tiempo total en segundos
+        timerText.text += " (Final)";
+
+        // Guardar el tiempo como puntuación
+        SaveFinalTime();
+    }
+
+    private void SaveFinalTime()
+    {
+        // Guardar como puntuación máxima si corresponde
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(Mathf.FloorToInt(finalTime)); // Convierte a entero
+        }
+
+        // Añadir al ranking local
+        if (LocalRankingManager.Instance != null)
+        {
+            LocalRankingManager.Instance.AddScoreToRanking(Mathf.FloorToInt(finalTime));
         }
     }
 }
