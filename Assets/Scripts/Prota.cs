@@ -16,7 +16,7 @@ public class Prota : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  //Asignamos nuestro rigidbody2d a la referencia
-        velocidad = 3f;
+        velocidad = 7f;
         salto = 10f;
     }
 
