@@ -31,12 +31,20 @@ public class LocalRankingManager : MonoBehaviour
     public void AddScoreToRanking(int score)
     {
         rankingData.scores.Add(score);
-        rankingData.scores.Sort((a, b) => b.CompareTo(a)); // Ordenar de mayor a menor
+        rankingData.scores.Sort((b, a) => b.CompareTo(a)); // Ordenar de menor a mayor
+
         if (rankingData.scores.Count > 10) // Mantener un top 10
         {
             rankingData.scores.RemoveAt(rankingData.scores.Count - 1);
         }
         SaveRanking();
+    }
+
+    public void ResetScores()
+    {
+        rankingData.scores.Clear();
+        SaveRanking();
+        print("Ranking reset");
     }
 
     public void SaveRanking()
@@ -64,10 +72,4 @@ public class LocalRankingManager : MonoBehaviour
         return rankingData.scores;
     }
 
-    public void ResetScores()
-    {
-        rankingData.scores.Clear();
-        SaveRanking();
-        print("Ranking reset");
-    }
 }

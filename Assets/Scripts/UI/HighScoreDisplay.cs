@@ -9,9 +9,9 @@ public class HighScoreDisplay : MonoBehaviour
 
     private void Start()
     {
-        if (ScoreManager.Instance != null)
+        if (Scoremanager.Instance != null)
         {
-            int highScore = ScoreManager.Instance.highScore;
+            float highScore = Scoremanager.Instance.highScore;
             highScoreText.text = $"Mejor Tiempo: {highScore}s";
         }
     }

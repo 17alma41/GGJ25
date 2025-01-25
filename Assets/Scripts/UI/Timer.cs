@@ -24,9 +24,9 @@ public class Timer : MonoBehaviour
         float TimerControl = Time.time - startTime;
         string mins = ((int)TimerControl / 60).ToString("00");
         string segs = (TimerControl % 60).ToString("00");
-        string milisegs = ((TimerControl * 100) % 100).ToString("00");
+        // string milisegs = ((TimerControl * 100) % 100).ToString("00");
 
-        string TimerString = string.Format("{0}:{1}:{2}", mins, segs, milisegs);
+        string TimerString = string.Format("{0}:{1}", mins, segs);
 
         timerText.text = TimerString;
 
@@ -54,9 +54,9 @@ public class Timer : MonoBehaviour
     private void SaveFinalTime()
     {
         // Guardar como puntuación máxima si corresponde
-        if (ScoreManager.Instance != null)
+        if (Scoremanager.Instance != null)
         {
-            ScoreManager.Instance.AddScore(Mathf.FloorToInt(finalTime)); // Convierte a entero
+            Scoremanager.Instance.AddScore(Mathf.FloorToInt(finalTime)); // Convierte a entero
         }
 
         // Añadir al ranking local

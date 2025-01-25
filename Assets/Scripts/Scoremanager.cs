@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ScoreManager : MonoBehaviour
+public class Scoremanager : MonoBehaviour
 {
-    public static ScoreManager Instance;
-    public int currentScore;    
-    public int highScore;      
+    public static Scoremanager Instance;
+    public int currentScore;
+    public int highScore;
 
     private void Awake()
     {
@@ -19,12 +20,6 @@ public class ScoreManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-
-    private void Start()
-    {
-        // Cargar la puntuación máxima al inicio
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
     }
 
     public void AddScore(int points)
@@ -41,10 +36,5 @@ public class ScoreManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("HighScore", highScore);
         PlayerPrefs.Save();
-    }
-
-    public void ResetScore()
-    {
-        currentScore = 0;
     }
 }
