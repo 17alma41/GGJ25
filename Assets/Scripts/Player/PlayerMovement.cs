@@ -19,16 +19,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] KeyCode keyJump = KeyCode.Space; 
     [SerializeField] float jumpForce = 10f; 
 
-    [Header("Gravity Settings")]
-    [SerializeField] float defaultGravity = 1f;
-    [SerializeField] float fallingGravity = 2f;
 
     bool isGrounded; 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = defaultGravity; 
     }
 
     void Update()
@@ -40,13 +36,8 @@ public class PlayerMovement : MonoBehaviour
             isMoving = true;
         }
 
-        if (Input.GetKeyDown(keyJump) && isGrounded && isMoving)
-        {
+        Jump();
 
-            Jump();
-        }
-
-        AdjustGravity();
     }
 
     private void FixedUpdate()
@@ -59,23 +50,15 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveRight()
     {
-        rb.velocity = new Vector2 (movementSpeed, rb.velocity.y);
+        transform.Translate(new Vector2(movementSpeed * Time.deltaTime, 0));
+
     }
 
     void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
-    }
-
-    void AdjustGravity()
-    {
-        if (rb.velocity.y < 0) 
+        if (Input.GetKeyDown(keyJump) && isGrounded && isMoving)
         {
-            rb.gravityScale = fallingGravity; 
-        }
-        else
-        {
-            rb.gravityScale = defaultGravity; 
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
         }
     }
 
