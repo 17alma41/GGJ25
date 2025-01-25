@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: 3e8d676dea6f5ab459435b1caccbc52f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_0"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 235
+        width: 326
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02ed3ef49c29e148976a9d02451e20f
+      internalID: 1275344376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_1"
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 235
+        width: 308
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11725de6950630a4c91ee61c8a13fb89
+      internalID: 1732842272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_2"
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 525
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da2f462aad4f134fab8c2dc8a4a75e5
+      internalID: 1592582392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_3"
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 235
+        width: 222
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d530183bf99e1d45b2ce84d87f83f96
+      internalID: -945945622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_4"
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 235
+        width: 221
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2422ebb6ec9daf04f8ec73d07370bf34
+      internalID: 2037383736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_5"
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 235
+        width: 215
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f22c4e6937f54e871d2b238de0321
+      internalID: 844405544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_6"
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 235
+        width: 173
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723310cec28be4f40a96a8ec706ef673
+      internalID: -504265144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_7"
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 235
+        width: 172
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84f6173f07a2be4191764e567371566
+      internalID: -1807028321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_8"
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 235
+        width: 173
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56753e6965a19a4e98c4a365d33d249
+      internalID: -2129538845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_9"
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 235
+        width: 185
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c11966469c57114dab882cfc173445c
+      internalID: 830733736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_10"
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 235
+        width: 314
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e914f193cb204459155d85ca29592b
+      internalID: -2061127883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_11"
+      rect:
+        serializedVersion: 2
+        x: 4255
+        y: 235
+        width: 332
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af766bf81e07914a8e78cc9e405e94a
+      internalID: 793408272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_12"
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 228
+        width: 228
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da8396f5d25de0488402088cc4d21b0
+      internalID: -2094573823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_13"
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 241
+        width: 376
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad31a41601864a343ae5f18f6988f6cb
+      internalID: 877902963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_14"
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 235
+        width: 314
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df208c35016f0a94385c9d1829879dab
+      internalID: -1877953876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_15"
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 235
+        width: 228
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6bf81c26faf48409768c0f3f19f10f
+      internalID: -753123413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_16"
+      rect:
+        serializedVersion: 2
+        x: 6348
+        y: 241
+        width: 277
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe50a1622fdbacf43946a98570a02974
+      internalID: -1710847311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_17"
+      rect:
+        serializedVersion: 2
+        x: 6705
+        y: 247
+        width: 363
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226dadd0b631e694ea891e7997c64378
+      internalID: 1734158062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_18"
+      rect:
+        serializedVersion: 2
+        x: 7149
+        y: 296
+        width: 443
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc5ce05db47e5d41b58913c183252a2
+      internalID: 1850885428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_19"
+      rect:
+        serializedVersion: 2
+        x: 7623
+        y: 247
+        width: 375
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedc9f1272dc38046bded400bcffe183
+      internalID: -182047612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_20"
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 235
+        width: 203
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446e507041ca9214fb2a1330cc65d251
+      internalID: 566085279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_21"
+      rect:
+        serializedVersion: 2
+        x: 8398
+        y: 247
+        width: 284
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df29a68b0a2c6d043828682e07fe7ed2
+      internalID: 1850039838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_22"
+      rect:
+        serializedVersion: 2
+        x: 8756
+        y: 284
+        width: 363
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a689817a2e1544bced676812e760f
+      internalID: -301160224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_23"
+      rect:
+        serializedVersion: 2
+        x: 9174
+        y: 339
+        width: 247
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54592176a66fb49b80bd807e170822
+      internalID: 975824151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_24"
+      rect:
+        serializedVersion: 2
+        x: 9525
+        y: 241
+        width: 357
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbe0d3d7c254834aa4332c20609947b
+      internalID: -919421008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_25"
+      rect:
+        serializedVersion: 2
+        x: 9987
+        y: 247
+        width: 283
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3742ebc8ef882a14f8857b3ec45152c7
+      internalID: -2087282786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_26"
+      rect:
+        serializedVersion: 2
+        x: 10332
+        y: 241
+        width: 314
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022872fbbd66eed489e2b2abf1c5b900
+      internalID: -1419211420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_27"
+      rect:
+        serializedVersion: 2
+        x: 10738
+        y: 241
+        width: 370
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61a7914162ed594aacdb06e7a1b078b
+      internalID: -408730614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_28"
+      rect:
+        serializedVersion: 2
+        x: 11286
+        y: 235
+        width: 314
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9557a3d1705c34399d09cb360da70a
+      internalID: -273847541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_29"
+      rect:
+        serializedVersion: 2
+        x: 11828
+        y: 241
+        width: 376
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba9ea921977e3d41b66f34e546a71a6
+      internalID: 446793792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_30"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 494
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d4d45054d96a64eb8c7a5c7baa17d7
+      internalID: -1810133853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_31"
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 512
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df88c1b7f25f984788d79b28a24a4a1
+      internalID: 636590606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_32"
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 457
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d7ace29ca43c0458fae8c1eea7738c
+      internalID: -587125777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_33"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 463
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660b71529fcfb64a9a84cdac5604006
+      internalID: -986928502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_34"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 444
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112e3224600d3ca48ab197e936d6aec9
+      internalID: -1191444312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_35"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 494
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7005060746e8e04ea67555d92a4d76d
+      internalID: 1006295546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_36"
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 444
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835ecad27b6e0a247b52bc84c2a0c2c7
+      internalID: -1158501464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_37"
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 438
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ca260a0b0554646b36a98f50453624
+      internalID: 239895431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_38"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 475
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810762b921e390b44ad1dcd7acbddda7
+      internalID: 2033304324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_39"
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 481
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada70eac06e5b641870ba8d67aa5c4e
+      internalID: 756401784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_40"
+      rect:
+        serializedVersion: 2
+        x: 4236
+        y: 469
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c98c51847ada74297cc47a470bce07
+      internalID: -278060944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_41"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 438
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1b659dd75e5834ca74a4271dac7c1e
+      internalID: -967944673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_42"
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 444
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a51537061ae2f042b797b98020ec456
+      internalID: -396271009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_43"
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6415cb1b532911b4fbb4a2630a0fc894
+      internalID: 1063371488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CHICA JAM ANIMACION EXTRA\xD1ADA_44"
+      rect:
+        serializedVersion: 2
+        x: 8817
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12d82fcae84e4941bac1c267b6bba38
+      internalID: 129381175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_0": 1275344376
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_1": 1732842272
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_10": -2061127883
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_11": 793408272
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_12": -2094573823
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_13": 877902963
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_14": -1877953876
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_15": -753123413
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_16": -1710847311
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_17": 1734158062
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_18": 1850885428
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_19": -182047612
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_2": 1592582392
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_20": 566085279
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_21": 1850039838
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_22": -301160224
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_23": 975824151
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_24": -919421008
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_25": -2087282786
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_26": -1419211420
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_27": -408730614
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_28": -273847541
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_29": 446793792
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_3": -945945622
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_30": -1810133853
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_31": 636590606
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_32": -587125777
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_33": -986928502
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_34": -1191444312
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_35": 1006295546
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_36": -1158501464
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_37": 239895431
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_38": 2033304324
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_39": 756401784
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_4": 2037383736
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_40": -278060944
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_41": -967944673
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_42": -396271009
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_43": 1063371488
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_44": 129381175
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_5": 844405544
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_6": -504265144
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_7": -1807028321
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_8": -2129538845
+      "CHICA JAM ANIMACION EXTRA\xD1ADA_9": 830733736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
