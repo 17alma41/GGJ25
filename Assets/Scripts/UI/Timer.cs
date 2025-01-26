@@ -10,18 +10,18 @@ public class Timer : MonoBehaviour
     //Esta clase tiene que ir dentro del player
 
     [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField] TextMeshProUGUI penaltyText; // Texto para mostrar la penalización
+    [SerializeField] TextMeshProUGUI penaltyText; // Texto para mostrar la penalizaciï¿½n
     [SerializeField] CinemachineImpulseSource impulseSource; // Referencia al generador de impulsos
 
     float startTime;
-    bool isRunning = false; // Cambiado a false para que no inicie automáticamente
+    bool isRunning = false; // Cambiado a false para que no inicie automï¿½ticamente
     float finalTime;
 
     void Start()
     {
         if (penaltyText != null)
         {
-            penaltyText.gameObject.SetActive(false); // Ocultar el texto de penalización al inicio
+            penaltyText.gameObject.SetActive(false); // Ocultar el texto de penalizaciï¿½n al inicio
         }
     }
 
@@ -47,7 +47,7 @@ public class Timer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("obstacle")) // NO OLVIDAR: añadir tag "obstacle"
+        if (collision.gameObject.CompareTag("obstacle")) // NO OLVIDAR: aï¿½adir tag "obstacle"
         {
             ApplyPenalty();
         }
@@ -56,7 +56,7 @@ public class Timer : MonoBehaviour
     void ApplyPenalty()
     {
         startTime -= 5f; // Restar 5 segundos al tiempo
-        ShowPenaltyText(); // Mostrar el texto de penalización
+        ShowPenaltyText(); // Mostrar el texto de penalizaciï¿½n
         TriggerShake(); // Activar el efecto de shake
     }
 
@@ -67,7 +67,7 @@ public class Timer : MonoBehaviour
             penaltyText.text = "+5";
             penaltyText.gameObject.SetActive(true);
 
-            // Desactivar el texto después de un tiempo
+            // Desactivar el texto despuï¿½s de un tiempo
             StartCoroutine(HidePenaltyText());
         }
     }
@@ -92,19 +92,19 @@ public class Timer : MonoBehaviour
         finalTime = Time.time - startTime; // Guarda el tiempo total en segundos
         //timerText.text += " (Final)";
 
-        // Guardar el tiempo como puntuación
+        // Guardar el tiempo como puntuaciï¿½n
         SaveFinalTime();
     }
 
     private void SaveFinalTime()
     {
-        // Guardar como puntuación máxima si corresponde
+        // Guardar como puntuaciï¿½n mï¿½xima si corresponde
         if (Scoremanager.Instance != null)
         {
             Scoremanager.Instance.AddScore(Mathf.FloorToInt(finalTime)); // Convierte a entero
         }
 
-        // Añadir al ranking local
+        // Aï¿½adir al ranking local
         if (LocalRankingManager.Instance != null)
         {
             LocalRankingManager.Instance.AddScoreToRanking(Mathf.FloorToInt(finalTime));
