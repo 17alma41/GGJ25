@@ -1012,6 +1012,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2032325639}
+  - component: {fileID: 2032325641}
+  - component: {fileID: 2032325640}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1034,6 +1036,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2032325640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032325638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18aa07e4370a81342845e35bec926e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScore: 0
+  highScore: 0
+--- !u!114 &2032325641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032325638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3da544f88809d47ac3661a5cd279c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rankingData:
+    scores: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

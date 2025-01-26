@@ -15,7 +15,7 @@ public class FinishLine : MonoBehaviour
             }
 
             // Opcional: Carga la escena del ranking
-            UnityEngine.SceneManagement.SceneManager.LoadScene("FinalDisplay");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("FinalCine");
         }
     }
 }
