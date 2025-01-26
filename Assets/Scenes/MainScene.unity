@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 136736205}
   - component: {fileID: 136736204}
   - component: {fileID: 136736207}
+  - component: {fileID: 136736210}
   - component: {fileID: 136736208}
   - component: {fileID: 136736209}
   m_Layer: 0
@@ -400,6 +401,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &136736210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136736203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09da7510368a014459325d074caa1cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 0
+  salto: 0
+  corriendo: 0
+  enSuelo: 0
+  timer: {fileID: 136736208}
 --- !u!1 &321427896
 GameObject:
   m_ObjectHideFlags: 0
