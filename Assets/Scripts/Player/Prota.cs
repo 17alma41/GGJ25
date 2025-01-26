@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class Prota : MonoBehaviour
 {
-
+    Animator anim; //regerencia al animator
     Rigidbody2D rb; //Referencia a un rigidbody2d
     float velocidad; //Variable velocidad
     float salto; //Variable salto
     public bool corriendo; 
     public bool enSuelo;
+
    
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();  //Asignamos nuestro rigidbody2d a la referencia
-        velocidad = 7f;
-        salto = 10f;
+        velocidad = 9f;
+        salto = 20f;
     }
 
     // Update is called once per frame
@@ -25,10 +27,15 @@ public class Prota : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y); //velocidad en el eje x e y
 
+       
+        
+        
+
         if (Input.GetKeyDown(KeyCode.Return))
         {
 
             corriendo = true;
+            anim.SetBool("corriendo", false); //pone en True la variable del animator: saltando
         }
 
 
@@ -48,9 +55,11 @@ public class Prota : MonoBehaviour
 
             
             rb.velocity = new Vector2(0, salto); //vector en el que se hara el salto
-            
+            anim.SetBool("saltando", true); //pone en True la variable del animator: saltando
 
         }
+        
+            
 
     }
 
@@ -62,7 +71,7 @@ public class Prota : MonoBehaviour
         {
 
             enSuelo = true; //Cambia la variable a true
-            
+            anim.SetBool("saltando", false); //pone en True la variable del animator: saltando
         }
     }
 
