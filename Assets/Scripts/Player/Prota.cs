@@ -6,8 +6,8 @@ public class Prota : MonoBehaviour
 {
     Animator anim; //regerencia al animator
     Rigidbody2D rb; //Referencia a un rigidbody2d
-    float velocidad; //Variable velocidad
-    float salto; //Variable salto
+    public float velocidad; //Variable velocidad
+    public float salto; //Variable salto
     public bool corriendo; 
     public bool enSuelo;
 
