@@ -6,16 +6,18 @@ using UnityEngine;
 public class RankingDisplay : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI rankingText;
+    [SerializeField] ParticleSystem particle;
 
     private void Start()
     {
+        particle.Play();
         DisplayRanking();
     }
 
     public void DisplayRanking()
     {
         var scores = LocalRankingManager.Instance.GetRanking();
-        rankingText.text = "Ranking:\n";
+        //rankingText.text = "Ranking:\n";
 
         for (int i = 0; i < scores.Count; i++)
         {
@@ -28,6 +30,6 @@ public class RankingDisplay : MonoBehaviour
         int minutes = timeInSeconds / 60; 
         int seconds = timeInSeconds % 60; 
 
-        return $"{minutes:00}:{seconds:00}"; 
+        return $" {minutes:00}:{seconds:00}"; 
     }
 }
