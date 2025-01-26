@@ -27,24 +27,25 @@ public class Prota : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y); //velocidad en el eje x e y
 
-       
-        
-        
+        anim.SetBool("cara", false); //pone en False la variable del animator: cara
+
+
+
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
+            anim.SetBool("cara", true); //pone en True la variable del animator: cara
 
-            corriendo = true;
-            anim.SetBool("corriendo", false); //pone en True la variable del animator: saltando
+
         }
 
 
         if (corriendo)
         {
 
-            rb.velocity = new Vector2(velocidad, rb.velocity.y); 
+            rb.velocity = new Vector2(velocidad, rb.velocity.y);
 
-            
+            anim.SetBool("corriendo", true); //pone en True la variable del animator: corriendo
         }
 
 
@@ -84,6 +85,13 @@ public class Prota : MonoBehaviour
             enSuelo = false; //Cambia la variable a false
 
         }
+    }
+
+
+    public void correr()
+    {
+        corriendo = true;
+        anim.SetBool("corriendo", true); //pone en True la variable del animator: corriendo
     }
 
 }
