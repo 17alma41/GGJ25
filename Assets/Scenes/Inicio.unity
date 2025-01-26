@@ -422,6 +422,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1993696134}
+  - {fileID: 1124475862}
   - {fileID: 449443128}
   - {fileID: 2026637055}
   - {fileID: 1294148052}
@@ -1171,7 +1172,7 @@ Animator:
   m_GameObject: {fileID: 1124475861}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6103ef2974bff64caf307e8da12cfb6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6cf77deeace1a5e42b3065952268a5c5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
