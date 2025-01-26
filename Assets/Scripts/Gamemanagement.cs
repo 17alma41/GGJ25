@@ -63,7 +63,7 @@ public class Gamemanagement : MonoBehaviour
     {
         //print("empiezas");
         auso.PlayOneShot(click);
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("LevelDesing");
 
 
     }

@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
+    Animator anim; //regerencia al animator
 
     [Header("Movement Settings")]
     [SerializeField] float movementSpeed = 5f; 
@@ -24,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -45,25 +47,40 @@ public class PlayerMovement : MonoBehaviour
         if (isMoving)
         {
             MoveRight();
+           
+
         }
     }
 
     void MoveRight()
     {
         transform.Translate(new Vector2(movementSpeed * Time.deltaTime, 0));
-
+        
     }
 
     void Jump()
     {
+
         if (Input.GetKeyDown(keyJump) && isGrounded && isMoving)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
+            print("saltas");
+           
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            anim.SetBool("saltando", true);
         }
+
+        if (isGrounded)
+        {
+            print("suelo");
+            anim.SetBool("saltando", false);
+           
+        }
+       
     }
 
     bool CheckIfGrounded()
     {
+
         RaycastHit2D hit = Physics2D.BoxCast(
             groundCheckPoint.position,
             groundCheckPoint.localScale,
@@ -75,5 +92,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Devuelve true si tocamos el suelo
         return hit.collider != null;
+
     }
 }
