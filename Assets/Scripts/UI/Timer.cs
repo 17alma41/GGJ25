@@ -14,13 +14,11 @@ public class Timer : MonoBehaviour
     [SerializeField] CinemachineImpulseSource impulseSource; // Referencia al generador de impulsos
 
     float startTime;
-    bool isRunning = true;
+    bool isRunning = false; // Cambiado a false para que no inicie automáticamente
     float finalTime;
 
     void Start()
     {
-        startTime = Time.time;
-
         if (penaltyText != null)
         {
             penaltyText.gameObject.SetActive(false); // Ocultar el texto de penalización al inicio
@@ -41,7 +39,13 @@ public class Timer : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void StartTimer()
+    {
+        startTime = Time.time; // Establece el tiempo de inicio
+        isRunning = true; // Activa el temporizador
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("obstacle")) // NO OLVIDAR: añadir tag "obstacle"
         {
@@ -60,7 +64,7 @@ public class Timer : MonoBehaviour
     {
         if (penaltyText != null)
         {
-            penaltyText.text = "+5 segundos";
+            penaltyText.text = "+5";
             penaltyText.gameObject.SetActive(true);
 
             // Desactivar el texto después de un tiempo
@@ -86,7 +90,7 @@ public class Timer : MonoBehaviour
     {
         isRunning = false;
         finalTime = Time.time - startTime; // Guarda el tiempo total en segundos
-        timerText.text += " (Final)";
+        //timerText.text += " (Final)";
 
         // Guardar el tiempo como puntuación
         SaveFinalTime();

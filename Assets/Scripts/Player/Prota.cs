@@ -4,94 +4,86 @@ using UnityEngine;
 
 public class Prota : MonoBehaviour
 {
-    Animator anim; //regerencia al animator
-    Rigidbody2D rb; //Referencia a un rigidbody2d
-    public float velocidad; //Variable velocidad
-    public float salto; //Variable salto
-    public bool corriendo; 
+    Animator anim; // Referencia al Animator
+    Rigidbody2D rb; // Referencia al Rigidbody2D
+    public float velocidad; // Variable velocidad
+    public float salto; // Variable salto
+    public bool corriendo;
     public bool enSuelo;
 
-   
+    [SerializeField] Timer timer; // Referencia al script Timer
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();  //Asignamos nuestro rigidbody2d a la referencia
+        rb = GetComponent<Rigidbody2D>(); // Asignamos nuestro Rigidbody2D a la referencia
         velocidad = 9f;
         salto = 20f;
+
+        // Asegúrate de que el temporizador esté inactivo al inicio
+        if (timer != null)
+        {
+            timer.StopTimer(); // Asegúrate de que el temporizador no esté corriendo al inicio
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y); //velocidad en el eje x e y
+        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y); // Velocidad en el eje x e y
 
-        anim.SetBool("cara", false); //pone en False la variable del animator: cara
-
-
-
+        anim.SetBool("cara", false); // Pone en False la variable del Animator: cara
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            anim.SetBool("cara", true); //pone en True la variable del animator: cara
-
-
+            anim.SetBool("cara", true); // Pone en True la variable del Animator: cara
         }
-
 
         if (corriendo)
         {
-
             rb.velocity = new Vector2(velocidad, rb.velocity.y);
 
-            anim.SetBool("corriendo", true); //pone en True la variable del animator: corriendo
+            anim.SetBool("corriendo", true); // Pone en True la variable del Animator: corriendo
         }
-
 
         if (Input.GetKeyDown(KeyCode.Space) && enSuelo && corriendo)
         {
+            print("Has pulsado tecla Space");
 
-            print("Has pulsado tecla space");
-
-            
-            rb.velocity = new Vector2(0, salto); //vector en el que se hara el salto
-            anim.SetBool("saltando", true); //pone en True la variable del animator: saltando
-
+            rb.velocity = new Vector2(0, salto); // Vector en el que se hará el salto
+            anim.SetBool("saltando", true); // Pone en True la variable del Animator: saltando
         }
-        
-            
-
     }
-
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        //Comprueba qur tocas un objeto que tiene como tag suelo
+        // Comprueba que tocas un objeto que tiene como tag "Suelo"
         if (collision.gameObject.tag == "Suelo")
         {
-
-            enSuelo = true; //Cambia la variable a true
-            anim.SetBool("saltando", false); //pone en True la variable del animator: saltando
+            enSuelo = true; // Cambia la variable a true
+            anim.SetBool("saltando", false); // Pone en False la variable del Animator: saltando
         }
     }
 
-    //Comprueba que ya no estas tocando algo con una colsiion trigger. Para que se pueda detectar, antes has tenido que tocar algo trigger
     private void OnCollisionExit2D(Collision2D collision)
-    { 
+    {
         if (collision.gameObject.tag == "Suelo")
         {
-
-            enSuelo = false; //Cambia la variable a false
-
+            enSuelo = false; // Cambia la variable a false
         }
     }
-
 
     public void correr()
     {
         corriendo = true;
-        anim.SetBool("corriendo", true); //pone en True la variable del animator: corriendo
+        anim.SetBool("corriendo", true); // Pone en True la variable del Animator: corriendo
+
+        // Inicia el temporizador cuando el personaje comienza a correr
+        if (timer != null)
+        {
+            timer.StartTimer();
+        }
     }
 
 }
